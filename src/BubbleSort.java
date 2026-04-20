@@ -29,11 +29,8 @@ public class BubbleSort {
                     numeros[i]= numeros [j];
                     numeros[j]= aux; 
                 }
-
             }
-        }
-    
-
+        }  
     }
         public void printArreglo(int[] numeros) {
             for (int i : numeros){
@@ -41,3 +38,17 @@ public class BubbleSort {
 
             }
         }
+
+    ///
+    /// [asc] TRUE ordenara ascendente
+    /// [asc] FALSE ordenara descendente
+    ///
+    public void sort( int[] numeros, boolean asc) {
+        if (asc){
+            sortAscendente(numeros); 
+        }else {
+            sortDescendet(numeros);
+        }
+    }
+}       
+    

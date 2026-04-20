@@ -15,9 +15,9 @@ public class App {
         //bubbleSort.printArreglo (numeros);
 
         bubbleSort.printArreglo (numeros);
-        bubbleSort.sort(numeros, asc: true);
+        bubbleSort.sort(numeros, asc: True);
         bubbleSort.printArreglo (numeros);
-        bubbleSort.sort(numeros, asc: false);
+        bubbleSort.sort(numeros, asc: False);
          bubbleSort.printArreglo (numeros);
 
 
