@@ -1,6 +1,6 @@
 public class BubbleSort {
     public BubbleSort(){
-        System.out.println("Se creo la clase en el constructor ");
+        System.out.println("Se creo la clase en el constructor: ");
     }
 
     
